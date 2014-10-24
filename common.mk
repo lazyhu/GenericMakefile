@@ -53,7 +53,6 @@ release: dirs
 dirs:
 	@echo "# creating directories"
 	$(CMD_PREFIX)mkdir -p $(dir $(OBJECTS))
-	$(CMD_PREFIX)mkdir -p $(BUILD_PATH)
 
 # Removes all build files
 .PHONY: clean
